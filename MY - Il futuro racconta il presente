@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>MY - Il Futuro Inizia Oggi</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:#050505;
+color:white;
+}
+
+header{
+background:#000;
+padding:20px;
+position:sticky;
+top:0;
+}
+
+.logo{
+font-size:35px;
+font-weight:bold;
+color:#00bfff;
+}
+
+nav{
+margin-top:10px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-right:20px;
+}
+
+.hero{
+height:90vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+background:linear-gradient(135deg,#000,#001c3d);
+}
+
+.hero h1{
+font-size:60px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:20px;
+max-width:700px;
+}
+
+.section{
+padding:60px 20px;
+max-width:1200px;
+margin:auto;
+}
+
+.card{
+background:#111;
+padding:30px;
+border-radius:15px;
+margin-bottom:20px;
+}
+
+.card h2{
+color:#00bfff;
+}
+
+footer{
+background:black;
+padding:30px;
+text-align:center;
+}
+
+button{
+padding:12px 25px;
+border:none;
+background:#00bfff;
+color:black;
+font-weight:bold;
+border-radius:10px;
+cursor:pointer;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">MY</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Piemonte</a>
+<a href="#">Regioni</a>
+<a href="#">Futuro</a>
+<a href="#">News</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h1>MY</h1>
+
+<p>
+Notizie, futuro, innovazione e territori.
+Un nuovo modo di guardare il presente e immaginare il domani.
+</p>
+
+<br>
+
+<button>Scopri il Futuro</button>
+
+</section>
+
+<section class="section">
+
+<div class="card">
+<h2>Piemonte</h2>
+<p>
+Torino, Pinerolo, Novara, Cuneo e tutte le novità dal territorio.
+</p>
+</div>
+
+<div class="card">
+<h2>Italia</h2>
+<p>
+Esplora le regioni italiane, la cultura, la tecnologia e i cambiamenti che stanno trasformando il Paese.
+</p>
+</div>
+
+<div class="card">
+<h2>Futuro 2050</h2>
+<p>
+Come saranno le nostre città? Quali lavori esisteranno? Quali tecnologie useremo?
+</p>
+</div>
+
+<div class="card">
+<h2>Fonti Ufficiali</h2>
+
+<p>
+<a href="https://www.lastampa.it" target="_blank">La Stampa</a><br>
+<a href="https://www.repubblica.it" target="_blank">La Repubblica</a><br>
+<a href="https://www.rainews.it" target="_blank">Rai News</a><br>
+<a href="https://www.ansa.it" target="_blank">ANSA</a>
+</p>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>MY</h3>
+
+<p>Il futuro inizia oggi.</p>
+
+</footer>
+
+</body>
+</html>
